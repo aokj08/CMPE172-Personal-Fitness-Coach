@@ -1,3 +1,6 @@
+
+CREATE DATABASE IF NOT EXISTS project_db;
+USE project_db;
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.19-11.5.2-MariaDB, for osx10.19 (x86_64)
 --
@@ -19,7 +22,6 @@
 --
 -- Table structure for table `User`
 --
-
 DROP TABLE IF EXISTS `User`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
