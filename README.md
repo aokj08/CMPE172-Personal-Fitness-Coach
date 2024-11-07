@@ -12,5 +12,5 @@
 - after modifying the database, enter `mysqldump -u <your_username> -p project_db > project_db_backup.sql`
 - enter your password for mysql
 - git add `project_db_backup.sql`
-- git commit -m "<specific message like updated User table>"
+- git commit -m "specific message like updated User table"
 - git push origin main
