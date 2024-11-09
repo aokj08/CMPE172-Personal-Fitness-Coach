@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS project_db;
+USE project_db;
 -- MySQL dump 10.13  Distrib 8.0.36, for Win64 (x86_64)
 --
 -- Host: localhost    Database: project_db
